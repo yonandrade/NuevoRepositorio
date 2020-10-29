@@ -1,4 +1,5 @@
 <?php
+include 'conexion/inde';
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +11,11 @@
 </head>
 <body>
 	<?php
-
+		$sad = 12;
+		$sad1 = "hola";
+		$sad2 = 14.12;
+		$sad3 = $sad.$sad1;
+		$sad4 = $sad3;
 	?>
 	
 </body>
